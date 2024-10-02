@@ -75,7 +75,7 @@ The key findings of the project include:
 - Additional studies should consider larger and more diverse datasets to validate findings across different cancer types and treatments.
 - Integrating more complex biological models may further improve understanding of tumor responses.
 - Tumour Spread: In future, we’ll model how cancer spreads within the body using more advanced mathematical equations.
-- SIMBIO Conference: The models will be tested further with new data for the SIMBIO-M 2024 conference to make sure they work well with different types of data.
+- SIMBIO Conference: The models will be tested further with new data for the SIMBIO-M 2024 conference paper to make sure they work well with different types of data.
 
 ## References
 1. Chattopadhyay et al. (2024). [Predicting Tumor Progression](https://arxiv.org/abs/2407.19277)
