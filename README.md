@@ -1,7 +1,7 @@
 
 
 ## Project Overview
-This repository contains the code, data, and documentation for a research project that investigates the application of machine learning (ML), deep learning (DL), and mathematical modelling to predict tumour progression and treatment responses. The study focuses on the use of unconjugated and conjugated magnetic nanoparticles (mNP-FDG) in comparison to saline solutions for treating cancerous tumours in mice. The results hold significant potential for future applications in in vivo research and personalised cancer therapy.
+This repository contains the code, data, and documentation for a research project that investigates the application of machine learning (ML), deep learning (DL), and mathematical modelling to predict tumour progression and treatment responses. The study focuses on the use of unconjugated and conjugated magnetic nanoparticles (mNP-FDG) in comparison to saline solutions for treating cancerous tumours in mice. The results hold significant potential for future applications in in vivo research and cancer treatments.
 ![Picture 1](https://github.com/user-attachments/assets/c437d375-8024-494e-a045-d03c20578eb8)
 
 ## Table of Contents
