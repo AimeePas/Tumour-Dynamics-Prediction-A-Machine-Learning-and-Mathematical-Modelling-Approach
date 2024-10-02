@@ -30,10 +30,10 @@ This used the following tools to analyse the data:
 - **Grabit (MATLAB)**: For extracting data from graphs
 - **Python**: Main programming language for data analysis.
 - **Libraries**:
-      - **Pandas**: For data manipulation and analysis.
-      - **Scikit-learn**: For implementing machine learning algorithms.
-      - **Keras/TensorFlow**: For deep learning model development.
-      - **Matplotlib/Seaborn**: For data visualization.
+  - **Pandas**: For data manipulation and analysis.
+  - **Scikit-learn**: For implementing machine learning algorithms.
+  - **Keras/TensorFlow**: For deep learning model development.
+  - **Matplotlib/Seaborn**: For data visualization.
 - **Jupyter Notebook**: For running and documenting code.
 
 ## Data Cleaning and Pre-processing
