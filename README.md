@@ -12,6 +12,7 @@ This repository contains the code, data, and documentation for a research projec
 - [Analysis](#analysis)
 - [Findings](#Findings)
 - [Limitations](#limitations)
+- [Future Directions](#Future-Directions)
 - [References](#references)
 
 
@@ -72,7 +73,10 @@ The key findings of the project include:
 
 ***Tumour shrinkage under mNP-FDG treatment***
 <img width="980" alt="fig 7a" src="https://github.com/user-attachments/assets/a01433d7-e7a1-4aed-ab9c-6a0186cc4de7">
+## Limitations
+Dataset Size: The relatively small size of the dataset limits the generalisability of the findings across different tumour types and treatments.
 
+Data Homogeneity: Lack of human clinical data, requiring reliance on animal models.
 ## Future Directions
 
 - SIMBIO Conference: The models will be tested further with new data for the SIMBIO-M 2024 conference paper to make sure they work well with different types of data.
@@ -80,7 +84,7 @@ The key findings of the project include:
 - Additional studies should consider larger and more diverse datasets to validate findings across different cancer types and treatments.
 - Integrating more complex biological models may further improve understanding of tumor responses.
 - Tumour Spread: In future, we’ll model how cancer spreads within the body using more advanced mathematical equations.
-
+  
 ## References
 1. Chattopadhyay et al. (2024). [Predicting Tumor Progression](https://arxiv.org/abs/2407.19277)
 2. Clarke & Fisher (2020). [Executable Cancer Models](https://doi.org/10.1038/s41568-020-0258-x)
