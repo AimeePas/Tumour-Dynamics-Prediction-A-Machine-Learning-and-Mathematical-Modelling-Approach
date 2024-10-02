@@ -13,7 +13,7 @@ This repository contains the code, data, and documentation for a research projec
 - [Results and Findings](#Findings)
 - [Limitations](#limitations)
 - [References](#references)
-- [Getting Started](#getting-started)
+
 
 
 ## Project Description
