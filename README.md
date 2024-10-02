@@ -63,10 +63,13 @@ The key findings of the project include:
 - Model Accuracy: The ANN model gave the most accurate results when predicting tumour growth compared to other machine learning methods.
 
 - ML,DL and Mathematical models for Cancer Treatment: The models showed that different algorithms can be very helpful in predicting tumour behaviour and improving cancer treatment options.
+
 Tumour shrinkage when  Untreated
 <img width="991" alt="Screenshot 2024-09-22 at 22 37 03" src="https://github.com/user-attachments/assets/ac0c0a9d-4195-47c6-908f-c6099235ff4c">
+
 Tumour shrinkage under mNP
 <img width="1022" alt="Tumor shrinkage under Mnps" src="https://github.com/user-attachments/assets/ecc699ff-5c1f-4909-b4f0-1434a6fc33b8">
+
 Tumour shrinkage under mNP-FDG
 <img width="980" alt="fig 7a" src="https://github.com/user-attachments/assets/a01433d7-e7a1-4aed-ab9c-6a0186cc4de7">
 
