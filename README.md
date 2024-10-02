@@ -1,51 +1,81 @@
+
+
 ## Project Overview
-This repository contains the code and data associated with my dissertation project, which focuses on predicting tumour dynamics in response to treatments using machine learning (ML), deep learning (DL), and mathematical modelling techniques. The goal is to enhance understanding of tumour progression and improve treatment regimens for cancers, particularly through the use of magnetic nanoparticles (mNP-FDG) and saline solutions.
+This repository contains the code, data, and documentation for a research project that investigates the application of machine learning (ML), deep learning (DL), and mathematical modelling to predict tumour progression and treatment responses. The study focuses on the use of unconjugated and conjugated magnetic nanoparticles (mNP-FDG) in comparison to saline solutions for treating cancerous tumours in mice. The results hold significant potential for future applications in in vivo research and personalised cancer therapy.
 ![Picture 1](https://github.com/user-attachments/assets/c437d375-8024-494e-a045-d03c20578eb8)
 
 ## Table of Contents
+-[Project Description](#Project-Description)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Cleaning and Pre-processing](#data-cleaning-and-pre-processing)
 - [Analysis](#analysis)
-- [Results and Findings](#results-and-findings)
+- [Results and Findings](#Findings)
 - [Limitations](#limitations)
 - [References](#references)
 - [Getting Started](#getting-started)
 
+
+## Project Description
+Cancer research needs better treatments. This project uses AI to help understand how tumours grow and respond to therapies. We used different methods like Machine Learning(ML), Deep Learning(DL) and Mathematical models to validate and predict tumour growth and the effects of treatments.
+
+This study focuses on comparing the effects of saline (as a control), unconjugated iron oxide magnetic nanoparticles(mNP) and conjugated iron oxide magnetic nanoparticles(mNP-FDG) treatments to see how effective they are for reducing tumour size. The main goal is to create models that help predict tumour changes more accurately.
+
+
 ## Data Sources
-The primary dataset used in this analysis is derived from various studies on tumour dynamics, including unpublished literature related to mNP-FDG treatments and existing saline treatment datasets.
+The primary dataset used in this analysis is derived from various studies on tumour dynamics, including unpublished literature related to mNP, mNP-FDG and existing saline treatment datasets.
 
 ## Tools
-This project utilizes the following tools and libraries:
+This used the following tools to analyse the data:
+- **Grabit (MATLAB)**: For extracting data from graphs
 - **Python**: Main programming language for data analysis.
-- **Pandas**: For data manipulation and analysis.
-- **Scikit-learn**: For implementing machine learning algorithms.
-- **Keras/TensorFlow**: For deep learning model development.
-- **Matplotlib/Seaborn**: For data visualization.
-- **Jupyter Notebook**: For interactive code execution and documentation.
+- **Libraries**:
+      - **Pandas**: For data manipulation and analysis.
+      - **Scikit-learn**: For implementing machine learning algorithms.
+      - **Keras/TensorFlow**: For deep learning model development.
+      - **Matplotlib/Seaborn**: For data visualization.
+- **Jupyter Notebook**: For running and documenting code.
 
 ## Data Cleaning and Pre-processing
 The following steps were taken to prepare the data:
-1. **Data Loading and Overview**: Initial exploration of the dataset to understand its structure and content.
-2. **Checking/Handling Missing Values**: Identification and resolution of any missing data entries.
-3. **Data Formatting**: Standardization and transformation of data.
-  
-<img width="980" alt="fig 7a" src="https://github.com/user-attachments/assets/a01433d7-e7a1-4aed-ab9c-6a0186cc4de7">
+1. Data Collection: We gathered tumour growth data from various studies.
+2. Proved there were no Missing Data or outliers.
+3. Data Formatting: Ensured the data was in the right format for analysis.
+4. Feature Engineering: Created new features like tumour growth rate and treatment intervals for better predictions.
 
-## Analysis
-The analysis involves creating a machine learning pipeline to predict tumour dynamics. The pipeline incorporates various algorithms and models to assess treatment effects:
+
+## Analysis 
+The analysis was carried out in several steps:
+
+1. Exploratory Data Analysis (EDA): We first explored the dataset to understand its structure and relationships.
+2. Model Development: We built models using ML techniques such as:
+    - Decision Trees (DT)
+    - Random Forests (RF)
+    - Multilinear Regression (MLR)
+    - Adaptive Neural Networks (ANN) for deep learning.
+3. Mathematical Modelling: We used Logistic Growth and Exponential Decay equations to model tumour changes and predict shrinkage under different treatments.
+
 ## Findings
-Using the developed pipeline, predictions on the unseen dataset revealed that 98.82% of the distribution was predicted as -1, indicating the absence of linear B-cell epitopes. In contrast, only 1.18% were predicted as 1, indicating the presence of linear B-cell epitopes. This result highlights how linear B-cell epitopes are relatively rare in this dataset.
+The key findings of the project include:
 
-## Conclusions
-The use of Principal Component Analysis (PCA) for feature reduction may have led to the loss of important information, potentially impacting the accuracy of predictions.
-The complexity of tumor dynamics and individual variability in responses to treatments may not be fully captured by the models used.
+- Tumour Shrinkage: mNP-FDG were more effective in shrinking tumours compared to saline treatments. The model predicted that the tumours would disappear in about 13.6 days when treated with mNPs.
+
+- Model Accuracy: The ANN model gave the most accurate results when predicting tumour growth compared to other machine learning methods.
+
+- ML,DL and Mathematical models for Cancer Treatment: The models showed that different algorithms can be very helpful in predicting tumour behaviour and improving cancer treatment options.
+  <img width="991" alt="Screenshot 2024-09-22 at 22 37 03" src="https://github.com/user-attachments/assets/ac0c0a9d-4195-47c6-908f-c6099235ff4c">
+
+<img width="1022" alt="Tumor shrinkage under Mnps" src="https://github.com/user-attachments/assets/ecc699ff-5c1f-4909-b4f0-1434a6fc33b8">
+
+<img width="980" alt="fig 7a" src="https://github.com/user-attachments/assets/a01433d7-e7a1-4aed-ab9c-6a0186cc4de7">
 
 ## Future Directions
 
-Future research could explore alternative machine learning algorithms to enhance predictive accuracy.
-Additional studies should consider larger and more diverse datasets to validate findings across different cancer types and treatments.
-Integrating more complex biological models may further improve understanding of tumor responses.
+- Future research could explore alternative machine learning algorithms to enhance predictive accuracy.
+- Additional studies should consider larger and more diverse datasets to validate findings across different cancer types and treatments.
+- Integrating more complex biological models may further improve understanding of tumor responses.
+- Tumour Spread: In future, we’ll model how cancer spreads within the body using more advanced mathematical equations.
+- SIMBIO Conference: The models will be tested further with new data for the SIMBIO-M 2024 conference to make sure they work well with different types of data.
 
 ## References
 1. Chattopadhyay et al. (2024). [Predicting Tumor Progression](https://arxiv.org/abs/2407.19277)
