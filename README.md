@@ -10,7 +10,7 @@ This repository contains the code, data, and documentation for a research projec
 - [Tools](#tools)
 - [Data Cleaning and Pre-processing](#data-cleaning-and-pre-processing)
 - [Analysis](#analysis)
-- [Results and Findings](#Findings)
+- [Findings](#Findings)
 - [Limitations](#limitations)
 - [References](#references)
 
