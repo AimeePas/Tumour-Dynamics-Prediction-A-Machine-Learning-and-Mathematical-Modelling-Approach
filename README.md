@@ -24,8 +24,7 @@ This study focuses on comparing the effects of saline (as a control), unconjugat
 
 The **Tumour Prediction GUI** allows users to input parameters like treatment type, time (in days), and species (currently supporting only mice), and receive a prediction for tumor volume based on the trained models.
 
-<img width="485" alt="Tumour Prediction GUI" src="https://github.com/user-attachments/assets/b9a25649-a5d7-421d-b85a-71b8245d6e32">
-
+<img width="462" alt="Tumour Prediction GUI" src="https://github.com/user-attachments/assets/02caac79-a63e-4abc-b41c-372a0175f9ef">
 
 ## Data Sources
 The primary dataset used in this analysis is derived from various studies on tumour dynamics, including unpublished literature related to mNP, mNP-FDG and existing saline treatment datasets.
